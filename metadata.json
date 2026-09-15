@@ -1,0 +1,6 @@
+{
+  "name": "Zee Homemade Food",
+  "description": "Homemade food service offering Pakistani home-style meals and desserts in Rawalpindi and Islamabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

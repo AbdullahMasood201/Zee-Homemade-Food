@@ -1,0 +1,2173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zee Homemade Food | Homemade Food in Rawalpindi &amp; Islamabad</title>
+  <meta name="description" content="Freshly prepared Pakistani homemade meals and desserts delivered across Rawalpindi and Islamabad. Browse our food menu, weekly specials, and order directly on WhatsApp.">
+  <meta property="og:title" content="Zee Homemade Food | Homemade Food in Rawalpindi &amp; Islamabad">
+  <meta property="og:description" content="Freshly prepared Pakistani homemade meals and desserts delivered across Rawalpindi and Islamabad. Browse our food menu, weekly specials, and order directly on WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://i.postimg.cc/YqV4Z8cq/image.png">
+
+  <!-- Typography: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Zee Homemade Food",
+    "description": "Homemade food service offering Pakistani home-style meals and desserts.",
+    "telephone": "+923144209121",
+    "email": "zeekuisine@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Flat 1, Malik Qaisar Plaza, near Sultan Public School, Dhoke Kala Khan",
+      "addressLocality": "Rawalpindi",
+      "addressRegion": "Punjab",
+      "addressCountry": "PK"
+    },
+    "sameAs": [
+      "https://www.facebook.com/EtensWinkel/"
+    ],
+    "servesCuisine": "Pakistani Homemade"
+  }
+  </script>
+
+  <style>
+    /* CSS RESET & VARIABLES */
+    :root {
+      --bg: #FEFEFE;
+      --heading: #57321F;
+      --primary: #F38221;
+      --primary-hover: #e07113;
+      --dark: #532A1A;
+      --text: #3E2417;
+      --text-muted: #6F5548;
+      --border: #E8DFD8;
+      --surface: #FFFFFF;
+      --surface-subtle: #FDF9F6;
+      --shadow-sm: 0 2px 6px rgba(83, 42, 26, 0.06);
+      --shadow-md: 0 6px 18px rgba(83, 42, 26, 0.08);
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 14px;
+      --font: 'Poppins', sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: var(--font);
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button, input, select, textarea {
+      font-family: inherit;
+      font-size: 1rem;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    .section-title {
+      color: var(--heading);
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.3;
+      text-align: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: var(--text-muted);
+      max-width: 620px;
+      margin: 0 auto 2.5rem;
+      font-size: 1rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-weight: 600;
+      font-size: 0.9375rem;
+      padding: 0.65rem 1.35rem;
+      border-radius: var(--radius-sm);
+      border: 2px solid transparent;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    .btn-primary {
+      background-color: var(--primary);
+      color: #FFFFFF;
+      border-color: var(--primary);
+    }
+    .btn-primary:hover {
+      background-color: var(--primary-hover);
+      border-color: var(--primary-hover);
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      color: #FFFFFF;
+      border-color: #FFFFFF;
+    }
+    .btn-outline:hover {
+      background-color: #FFFFFF;
+      color: var(--dark);
+    }
+
+    .btn-secondary {
+      background-color: var(--surface-subtle);
+      color: var(--heading);
+      border-color: var(--border);
+    }
+    .btn-secondary:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .btn-whatsapp {
+      background-color: #25D366;
+      color: #FFFFFF;
+      border-color: #25D366;
+    }
+    .btn-whatsapp:hover {
+      background-color: #20BA59;
+      border-color: #20BA59;
+    }
+
+    .btn-sm {
+      padding: 0.45rem 0.95rem;
+      font-size: 0.875rem;
+    }
+
+    /* HEADER */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: rgba(254, 254, 254, 0.98);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 72px;
+    }
+
+    .header-logo img {
+      height: 48px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 1.75rem;
+      list-style: none;
+    }
+
+    .nav-link {
+      color: var(--heading);
+      font-weight: 500;
+      font-size: 0.9375rem;
+      padding: 0.25rem 0;
+      position: relative;
+      transition: color 0.2s;
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: var(--primary);
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: var(--primary);
+      transition: width 0.2s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .mobile-toggle {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--heading);
+      cursor: pointer;
+      padding: 0.5rem;
+    }
+
+    /* HERO */
+    .hero-section {
+      position: relative;
+      min-height: 520px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      background-color: var(--dark);
+      color: #FFFFFF;
+      text-align: center;
+    }
+
+    .hero-slider {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+    }
+
+    .hero-slide {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center;
+      opacity: 0;
+      transition: opacity 1.2s ease-in-out;
+      will-change: opacity;
+    }
+
+    .hero-slide.active {
+      opacity: 1;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      background: linear-gradient(rgba(83, 42, 26, 0.72), rgba(87, 50, 31, 0.78));
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 3;
+      max-width: 740px;
+      padding: 4rem 1.25rem;
+      margin: 0 auto;
+    }
+
+    .hero-title {
+      font-size: 2.75rem;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-desc {
+      font-size: 1.125rem;
+      line-height: 1.65;
+      margin-bottom: 2rem;
+      color: rgba(255, 255, 255, 0.92);
+      max-width: 620px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* ABOUT / INTRODUCTION */
+    .about-section {
+      padding: 4.5rem 0;
+      background-color: var(--surface-subtle);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      align-items: center;
+    }
+
+    .about-text {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .about-text p {
+      font-size: 1.0625rem;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 1.25rem;
+    }
+
+    .highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+      margin-top: 2rem;
+    }
+
+    .highlight-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .highlight-icon {
+      width: 44px;
+      height: 44px;
+      margin: 0 auto 0.75rem;
+      background-color: rgba(243, 130, 33, 0.1);
+      color: var(--primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .highlight-card h3 {
+      font-size: 1.0625rem;
+      color: var(--heading);
+      margin-bottom: 0.35rem;
+    }
+
+    .highlight-card p {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 0;
+    }
+
+    /* FOOD MENU */
+    .menu-section {
+      padding: 5rem 0;
+    }
+
+    .food-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.75rem;
+    }
+
+    .food-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .food-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .food-img-wrapper {
+      position: relative;
+      aspect-ratio: 16 / 11;
+      width: 100%;
+      overflow: hidden;
+      background-color: #f1ece8;
+    }
+
+    .food-img-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .food-card:hover .food-img-wrapper img {
+      transform: scale(1.03);
+    }
+
+    .food-info {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .food-name {
+      font-size: 1.1875rem;
+      font-weight: 600;
+      color: var(--heading);
+      margin-bottom: 0.35rem;
+    }
+
+    .food-desc {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 0.85rem;
+      flex-grow: 1;
+    }
+
+    .food-serving {
+      background: var(--surface-subtle);
+      border-left: 3px solid var(--primary);
+      padding: 0.45rem 0.65rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      font-size: 0.8125rem;
+      color: var(--dark);
+      font-weight: 500;
+      margin-bottom: 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .food-serving svg {
+      flex-shrink: 0;
+      color: var(--primary);
+    }
+
+    .food-card .btn {
+      width: 100%;
+    }
+
+    /* MONTHLY MENU */
+    .monthly-section {
+      padding: 5rem 0;
+      background-color: var(--surface-subtle);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .week-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 0.65rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn {
+      background-color: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--heading);
+      padding: 0.55rem 1.25rem;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      font-size: 0.9375rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .tab-btn.active, .tab-btn:hover {
+      background-color: var(--primary);
+      color: #FFFFFF;
+      border-color: var(--primary);
+    }
+
+    .week-panel {
+      display: none;
+    }
+
+    .week-panel.active {
+      display: block;
+    }
+
+    .schedule-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .day-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.15rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .day-badge {
+      display: inline-block;
+      background-color: var(--dark);
+      color: #FFFFFF;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      margin-bottom: 0.75rem;
+      width: fit-content;
+    }
+
+    .day-dish-name {
+      font-size: 1.0625rem;
+      font-weight: 600;
+      color: var(--heading);
+      margin-bottom: 0.35rem;
+    }
+
+    .day-serving {
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .schedule-note {
+      text-align: center;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-top: 1.75rem;
+    }
+
+    /* DESSERTS */
+    .dessert-section {
+      padding: 5rem 0;
+    }
+
+    .dessert-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.75rem;
+    }
+
+    .dessert-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .dessert-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .dessert-img-wrapper {
+      position: relative;
+      aspect-ratio: 16 / 11;
+      width: 100%;
+      background-color: #f1ece8;
+    }
+
+    .dessert-img-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .dessert-info {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .dessert-name {
+      font-size: 1.1875rem;
+      font-weight: 600;
+      color: var(--heading);
+      margin-bottom: 0.35rem;
+    }
+
+    .dessert-desc {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 1.1rem;
+      flex-grow: 1;
+    }
+
+    /* SERVICES */
+    .services-section {
+      padding: 5rem 0;
+      background-color: var(--surface-subtle);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .service-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.75rem 1.5rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .service-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: var(--radius-sm);
+      background-color: rgba(243, 130, 33, 0.12);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .service-card h3 {
+      font-size: 1.125rem;
+      color: var(--heading);
+      margin-bottom: 0.5rem;
+    }
+
+    .service-card p {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* ORDER / RESERVATION */
+    .order-section {
+      padding: 5rem 0;
+    }
+
+    .order-container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 2.25rem;
+      box-shadow: var(--shadow-md);
+    }
+
+    .order-form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .form-group.full-width {
+      grid-column: span 2;
+    }
+
+    .form-group label {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--heading);
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 0.65rem 0.85rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background-color: var(--bg);
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .form-control:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(243, 130, 33, 0.15);
+    }
+
+    textarea.form-control {
+      resize: vertical;
+      min-height: 80px;
+    }
+
+    .form-notice {
+      grid-column: span 2;
+      background: var(--surface-subtle);
+      border-radius: var(--radius-sm);
+      padding: 0.85rem 1rem;
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .form-notice svg {
+      color: var(--primary);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .order-submit-btn {
+      grid-column: span 2;
+      width: 100%;
+      padding: 0.85rem;
+      font-size: 1rem;
+    }
+
+    /* FAQ */
+    .faq-section {
+      padding: 4.5rem 0;
+      background-color: var(--surface-subtle);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .faq-list {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .faq-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+    }
+
+    .faq-question {
+      font-size: 1.0625rem;
+      font-weight: 600;
+      color: var(--heading);
+      margin-bottom: 0.4rem;
+    }
+
+    .faq-answer {
+      font-size: 0.9375rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* CONTACT */
+    .contact-section {
+      padding: 5rem 0;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+      align-items: start;
+    }
+
+    .contact-info-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .contact-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background-color: rgba(243, 130, 33, 0.1);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .contact-detail h3 {
+      font-size: 1rem;
+      color: var(--heading);
+      margin-bottom: 0.2rem;
+    }
+
+    .contact-detail p, .contact-detail a {
+      font-size: 0.9375rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .contact-detail a:hover {
+      color: var(--primary);
+    }
+
+    .contact-card {
+      background: var(--surface-subtle);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+    }
+
+    .contact-card h3 {
+      font-size: 1.25rem;
+      color: var(--heading);
+      margin-bottom: 0.75rem;
+    }
+
+    .contact-card p {
+      font-size: 0.9375rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .contact-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    /* FOOTER */
+    .site-footer {
+      background-color: var(--dark);
+      color: #FFFFFF;
+      padding: 4rem 0 2rem;
+      border-top: 3px solid var(--primary);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1.5fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .footer-brand img {
+      height: 56px;
+      width: auto;
+      object-fit: contain;
+      margin-bottom: 1.25rem;
+    }
+
+    .footer-desc {
+      font-size: 0.9375rem;
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.6;
+      max-width: 360px;
+      margin-bottom: 1.25rem;
+    }
+
+    .footer-social {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .social-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+    }
+
+    .social-btn:hover {
+      background: var(--primary);
+      transform: translateY(-2px);
+    }
+
+    .footer-heading {
+      font-size: 1.0625rem;
+      font-weight: 600;
+      color: #FFFFFF;
+      margin-bottom: 1.25rem;
+      position: relative;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .footer-link {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 0.9375rem;
+      transition: color 0.2s;
+    }
+
+    .footer-link:hover {
+      color: var(--primary);
+    }
+
+    .footer-contact-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      font-size: 0.9375rem;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+    }
+
+    .footer-contact-item svg {
+      flex-shrink: 0;
+      color: var(--primary);
+      margin-top: 3px;
+    }
+
+    .footer-contact-item a:hover {
+      color: var(--primary);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 1.5rem;
+      text-align: center;
+      font-size: 0.875rem;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    /* FLOATING WHATSAPP BUTTON */
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 99;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background-color: #25D366;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+      transition: transform 0.2s, background-color 0.2s;
+    }
+
+    .floating-whatsapp:hover {
+      transform: scale(1.08);
+      background-color: #20BA59;
+    }
+
+    /* RESPONSIVE STYLES */
+    @media (max-width: 900px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .header-actions .btn {
+        display: none;
+      }
+
+      .mobile-toggle {
+        display: block;
+      }
+
+      .nav-menu {
+        position: fixed;
+        top: 72px;
+        left: 0;
+        right: 0;
+        background-color: var(--surface);
+        flex-direction: column;
+        padding: 1.5rem;
+        gap: 1rem;
+        border-bottom: 1px solid var(--border);
+        box-shadow: var(--shadow-md);
+        display: none;
+      }
+
+      .nav-menu.open {
+        display: flex;
+      }
+
+      .hero-title {
+        font-size: 2rem;
+      }
+
+      .hero-desc {
+        font-size: 1rem;
+      }
+
+      .order-form {
+        grid-template-columns: 1fr;
+      }
+
+      .form-group.full-width {
+        grid-column: span 1;
+      }
+
+      .form-notice, .order-submit-btn {
+        grid-column: span 1;
+      }
+
+      .order-container {
+        padding: 1.5rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" id="home">
+    <div class="container header-inner">
+      <a href="#home" class="header-logo" aria-label="Zee Homemade Food Home">
+        <img src="https://i.postimg.cc/YqV4Z8cq/image.png" alt="Zee Homemade Food" width="180" height="50" onerror="this.onerror=null;this.src='https://i.postimg.cc/CSMjZ6mD/image.png';">
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#monthly" class="nav-link">Monthly Menu</a></li>
+          <li><a href="#desserts" class="nav-link">Desserts</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#order" class="nav-link">Order</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#order" class="btn btn-primary btn-sm">Order Now</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero-section">
+    <div class="hero-slider" aria-hidden="true">
+      <div class="hero-slide active" id="heroSlide1" style="background-image: url('https://iili.io/nBc6qbf.png');"></div>
+      <div class="hero-slide" id="heroSlide2" style="background-image: url('https://iili.io/nBcZyp1.png');"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">Homemade Food Made with Care</h1>
+      <p class="hero-desc">Freshly prepared home-style Pakistani meals and traditional desserts crafted with quality ingredients. Serving customers with convenient ordering across Rawalpindi and Islamabad.</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">View Menu</a>
+        <a href="#order" class="btn btn-outline">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-text">
+        <h2 class="section-title">Home-Style Cooking for Everyday Living</h2>
+        <p>Zee Homemade Food brings authentic, comforting Pakistani homemade meals straight to your table in Rawalpindi and Islamabad. Every recipe is prepared with fresh ingredients, genuine care, and the familiar flavors of home.</p>
+        <p>Whether you need wholesome daily lunches, family dinners, or advance meal reservations, we offer a diverse weekly selection of chicken gravies, lentils, seasonal vegetables, and handcrafted desserts.</p>
+      </div>
+
+      <div class="highlights-grid">
+        <div class="highlight-card">
+          <div class="highlight-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+          </div>
+          <h3>Fresh Daily Prep</h3>
+          <p>Carefully cooked home-style meals prepared fresh for each order.</p>
+        </div>
+
+        <div class="highlight-card">
+          <div class="highlight-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          </div>
+          <h3>Weekly &amp; Monthly Variety</h3>
+          <p>Curated menu rotations so your household enjoys balanced variety.</p>
+        </div>
+
+        <div class="highlight-card">
+          <div class="highlight-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+          </div>
+          <h3>Direct WhatsApp Order</h3>
+          <p>Quick reservation and order confirmation directly with the kitchen.</p>
+        </div>
+
+        <div class="highlight-card">
+          <div class="highlight-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          </div>
+          <h3>Rawalpindi &amp; Islamabad</h3>
+          <p>Convenient local kitchen service serving twin-city residents.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOD MENU -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <h2 class="section-title">Our Homemade Food Menu</h2>
+      <p class="section-subtitle">Authentic Pakistani dishes prepared home-style with fresh spices, served with fresh chapati, crisp salad, and seasoned raita.</p>
+
+      <div class="food-grid">
+        <!-- 1. Chicken Qorma -->
+        <article class="food-card">
+          <div class="food-img-wrapper">
+            <img src="https://iili.io/nBYB0GI.png" alt="Chicken Qorma served with 2 Chapati, Salad &amp; Raita" loading="lazy" width="400" height="275">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Chicken Qorma</h3>
+            <p class="food-desc">Tender chicken slow-simmered in a traditional aromatic yogurt gravy infused with whole spices.</p>
+            <div class="food-serving">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>Served with: 2 Chapati, Salad &amp; Raita</span>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Chicken Qorma')">Order Dish</button>
+          </div>
+        </article>
+
+        <!-- 2. Mixed Vegetables -->
+        <article class="food-card">
+          <div class="food-img-wrapper">
+            <img src="https://iili.io/nBY77uS.png" alt="Mixed Vegetables served with 2 Chapati, Salad &amp; Raita" loading="lazy" width="400" height="275">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Mixed Vegetables</h3>
+            <p class="food-desc">A medley of fresh seasonal vegetables lightly spiced and sauteed to preserve natural flavor.</p>
+            <div class="food-serving">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>Served with: 2 Chapati, Salad &amp; Raita</span>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Mixed Vegetables')">Order Dish</button>
+          </div>
+        </article>
+
+        <!-- 3. Daal Chawal -->
+        <article class="food-card">
+          <div class="food-img-wrapper">
+            <img src="https://iili.io/nBY0YBt.png" alt="Daal Chawal served with Salad &amp; Raita" loading="lazy" width="400" height="275">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Daal Chawal</h3>
+            <p class="food-desc">Comforting yellow lentils slow-cooked with garlic-cumin tempering and paired with steamed basmati rice.</p>
+            <div class="food-serving">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>Served with: Salad &amp; Raita</span>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Daal Chawal')">Order Dish</button>
+          </div>
+        </article>
+
+        <!-- 4. Keema Matar -->
+        <article class="food-card">
+          <div class="food-img-wrapper">
+            <img src="https://iili.io/nBYEX19.png" alt="Keema Matar served with 2 Chapati, Salad &amp; Raita" loading="lazy" width="400" height="275">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Keema Matar</h3>
+            <p class="food-desc">Seasoned minced meat prepared with sweet green peas, ginger, and aromatic Pakistani spices.</p>
+            <div class="food-serving">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>Served with: 2 Chapati, Salad &amp; Raita</span>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Keema Matar')">Order Dish</button>
+          </div>
+        </article>
+
+        <!-- 5. Daal Mash -->
+        <article class="food-card">
+          <div class="food-img-wrapper">
+            <img src="https://iili.io/nBYMwDx.png" alt="Daal Mash served with 2 Chapati, Salad &amp; Raita" loading="lazy" width="400" height="275">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Daal Mash</h3>
+            <p class="food-desc">Pan-fried split white lentils garnished with ginger juliennes, green chilies, and fresh coriander.</p>
+            <div class="food-serving">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>Served with: 2 Chapati, Salad &amp; Raita</span>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Daal Mash')">Order Dish</button>
+          </div>
+        </article>
+
+        <!-- 6. Chicken Biryani -->
+        <article class="food-card">
+          <div class="food-img-wrapper">
+            <img src="https://iili.io/nBYsu07.png" alt="Chicken Biryani served with Salad &amp; Raita" loading="lazy" width="400" height="275">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Chicken Biryani</h3>
+            <p class="food-desc">Layered fragrant basmati rice cooked with spiced tender chicken and traditional whole herbs.</p>
+            <div class="food-serving">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>Served with: Salad &amp; Raita</span>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Chicken Biryani')">Order Dish</button>
+          </div>
+        </article>
+
+        <!-- 7. Chicken Karahi -->
+        <article class="food-card">
+          <div class="food-img-wrapper">
+            <img src="https://iili.io/nBYmC2p.png" alt="Chicken Karahi served with 2 Chapati, Salad &amp; Raita" loading="lazy" width="400" height="275">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Chicken Karahi</h3>
+            <p class="food-desc">Wok-cooked chicken prepared in fresh ripe tomatoes, green peppers, black pepper, and ginger.</p>
+            <div class="food-serving">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>Served with: 2 Chapati, Salad &amp; Raita</span>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Chicken Karahi')">Order Dish</button>
+          </div>
+        </article>
+
+        <!-- 8. Aloo Palak -->
+        <article class="food-card">
+          <div class="food-img-wrapper">
+            <img src="https://iili.io/nBaz2wu.png" alt="Aloo Palak served with 2 Chapati, Salad &amp; Raita" loading="lazy" width="400" height="275">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Aloo Palak</h3>
+            <p class="food-desc">Pureed fresh spinach sauteed with tender potato cubes, garlic, and mild homestyle spices.</p>
+            <div class="food-serving">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>Served with: 2 Chapati, Salad &amp; Raita</span>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Aloo Palak')">Order Dish</button>
+          </div>
+        </article>
+
+        <!-- 9. Chicken Pulao -->
+        <article class="food-card">
+          <div class="food-img-wrapper">
+            <img src="https://iili.io/nBaINLJ.png" alt="Chicken Pulao served with Salad &amp; Raita" loading="lazy" width="400" height="275">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Chicken Pulao</h3>
+            <p class="food-desc">Long-grain basmati rice infused with spiced chicken broth, cumin, and mild whole spices.</p>
+            <div class="food-serving">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>Served with: Salad &amp; Raita</span>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Chicken Pulao')">Order Dish</button>
+          </div>
+        </article>
+
+        <!-- 10. Daal Chana -->
+        <article class="food-card">
+          <div class="food-img-wrapper">
+            <img src="https://iili.io/nBa0i0X.png" alt="Daal Chana served with 2 Chapati, Salad &amp; Raita" loading="lazy" width="400" height="275">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Daal Chana</h3>
+            <p class="food-desc">Bengal gram lentils simmered with garlic, cumin, and mild red chili tempering.</p>
+            <div class="food-serving">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>Served with: 2 Chapati, Salad &amp; Raita</span>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Daal Chana')">Order Dish</button>
+          </div>
+        </article>
+
+        <!-- 11. Chicken Kofta -->
+        <article class="food-card">
+          <div class="food-img-wrapper">
+            <img src="https://iili.io/nBahkts.png" alt="Chicken Kofta served with 2 Chapati, Salad &amp; Raita" loading="lazy" width="400" height="275">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Chicken Kofta</h3>
+            <p class="food-desc">Handcrafted seasoned chicken meatballs simmered in a spiced, velvety curry sauce.</p>
+            <div class="food-serving">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>Served with: 2 Chapati, Salad &amp; Raita</span>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Chicken Kofta')">Order Dish</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MONTHLY MENU -->
+  <section class="monthly-section" id="monthly">
+    <div class="container">
+      <h2 class="section-title">Monthly Food Menu</h2>
+      <p class="section-subtitle">Explore our weekly meal schedule. All dishes are prepared using our signature homemade recipes and rotate across the month.</p>
+
+      <!-- Week selection tabs -->
+      <div class="week-tabs" role="tablist" aria-label="Weekly Menu Schedule">
+        <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="week1" onclick="switchWeek('week1', this)">Week 1</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="week2" onclick="switchWeek('week2', this)">Week 2</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="week3" onclick="switchWeek('week3', this)">Week 3</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="week4" onclick="switchWeek('week4', this)">Week 4</button>
+      </div>
+
+      <!-- WEEK 1 -->
+      <div class="week-panel active" id="week1" role="tabpanel">
+        <div class="schedule-grid">
+          <!-- Monday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Monday</span>
+              <h3 class="day-dish-name">Chicken Qorma</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Qorma')">Select for Order</button>
+          </div>
+
+          <!-- Tuesday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Tuesday</span>
+              <h3 class="day-dish-name">Mixed Vegetables</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Mixed Vegetables')">Select for Order</button>
+          </div>
+
+          <!-- Wednesday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Wednesday</span>
+              <h3 class="day-dish-name">Daal Chawal</h3>
+              <p class="day-serving">Served with: Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Daal Chawal')">Select for Order</button>
+          </div>
+
+          <!-- Thursday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Thursday</span>
+              <h3 class="day-dish-name">Chicken Karahi</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Karahi')">Select for Order</button>
+          </div>
+
+          <!-- Friday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Friday</span>
+              <h3 class="day-dish-name">Chicken Biryani</h3>
+              <p class="day-serving">Served with: Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Biryani')">Select for Order</button>
+          </div>
+
+          <!-- Saturday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Saturday</span>
+              <h3 class="day-dish-name">Aloo Palak</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Aloo Palak')">Select for Order</button>
+          </div>
+
+          <!-- Sunday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Sunday</span>
+              <h3 class="day-dish-name">Chicken Pulao</h3>
+              <p class="day-serving">Served with: Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Pulao')">Select for Order</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- WEEK 2 -->
+      <div class="week-panel" id="week2" role="tabpanel">
+        <div class="schedule-grid">
+          <!-- Monday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Monday</span>
+              <h3 class="day-dish-name">Keema Matar</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Keema Matar')">Select for Order</button>
+          </div>
+
+          <!-- Tuesday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Tuesday</span>
+              <h3 class="day-dish-name">Daal Mash</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Daal Mash')">Select for Order</button>
+          </div>
+
+          <!-- Wednesday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Wednesday</span>
+              <h3 class="day-dish-name">Chicken Kofta</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Kofta')">Select for Order</button>
+          </div>
+
+          <!-- Thursday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Thursday</span>
+              <h3 class="day-dish-name">Daal Chana</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Daal Chana')">Select for Order</button>
+          </div>
+
+          <!-- Friday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Friday</span>
+              <h3 class="day-dish-name">Chicken Biryani</h3>
+              <p class="day-serving">Served with: Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Biryani')">Select for Order</button>
+          </div>
+
+          <!-- Saturday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Saturday</span>
+              <h3 class="day-dish-name">Mixed Vegetables</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Mixed Vegetables')">Select for Order</button>
+          </div>
+
+          <!-- Sunday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Sunday</span>
+              <h3 class="day-dish-name">Chicken Qorma</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Qorma')">Select for Order</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- WEEK 3 -->
+      <div class="week-panel" id="week3" role="tabpanel">
+        <div class="schedule-grid">
+          <!-- Monday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Monday</span>
+              <h3 class="day-dish-name">Chicken Karahi</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Karahi')">Select for Order</button>
+          </div>
+
+          <!-- Tuesday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Tuesday</span>
+              <h3 class="day-dish-name">Aloo Palak</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Aloo Palak')">Select for Order</button>
+          </div>
+
+          <!-- Wednesday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Wednesday</span>
+              <h3 class="day-dish-name">Daal Chawal</h3>
+              <p class="day-serving">Served with: Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Daal Chawal')">Select for Order</button>
+          </div>
+
+          <!-- Thursday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Thursday</span>
+              <h3 class="day-dish-name">Chicken Kofta</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Kofta')">Select for Order</button>
+          </div>
+
+          <!-- Friday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Friday</span>
+              <h3 class="day-dish-name">Chicken Pulao</h3>
+              <p class="day-serving">Served with: Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Pulao')">Select for Order</button>
+          </div>
+
+          <!-- Saturday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Saturday</span>
+              <h3 class="day-dish-name">Daal Mash</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Daal Mash')">Select for Order</button>
+          </div>
+
+          <!-- Sunday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Sunday</span>
+              <h3 class="day-dish-name">Chicken Biryani</h3>
+              <p class="day-serving">Served with: Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Biryani')">Select for Order</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- WEEK 4 -->
+      <div class="week-panel" id="week4" role="tabpanel">
+        <div class="schedule-grid">
+          <!-- Monday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Monday</span>
+              <h3 class="day-dish-name">Keema Matar</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Keema Matar')">Select for Order</button>
+          </div>
+
+          <!-- Tuesday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Tuesday</span>
+              <h3 class="day-dish-name">Daal Chana</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Daal Chana')">Select for Order</button>
+          </div>
+
+          <!-- Wednesday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Wednesday</span>
+              <h3 class="day-dish-name">Chicken Qorma</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Qorma')">Select for Order</button>
+          </div>
+
+          <!-- Thursday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Thursday</span>
+              <h3 class="day-dish-name">Mixed Vegetables</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Mixed Vegetables')">Select for Order</button>
+          </div>
+
+          <!-- Friday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Friday</span>
+              <h3 class="day-dish-name">Chicken Biryani</h3>
+              <p class="day-serving">Served with: Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Biryani')">Select for Order</button>
+          </div>
+
+          <!-- Saturday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Saturday</span>
+              <h3 class="day-dish-name">Chicken Karahi</h3>
+              <p class="day-serving">Served with: 2 Chapati, Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Chicken Karahi')">Select for Order</button>
+          </div>
+
+          <!-- Sunday -->
+          <div class="day-card">
+            <div>
+              <span class="day-badge">Sunday</span>
+              <h3 class="day-dish-name">Daal Chawal</h3>
+              <p class="day-serving">Served with: Salad &amp; Raita</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Daal Chawal')">Select for Order</button>
+          </div>
+        </div>
+      </div>
+
+      <p class="schedule-note">Meals are prepared fresh daily. You can reserve any upcoming day's dish in advance through our order form.</p>
+    </div>
+  </section>
+
+  <!-- DESSERTS -->
+  <section class="dessert-section" id="desserts">
+    <div class="container">
+      <h2 class="section-title">Homemade Desserts</h2>
+      <p class="section-subtitle">Traditional sweet dishes freshly made to complete your lunch or dinner, or to enjoy as a sweet family treat.</p>
+
+      <div class="dessert-grid">
+        <!-- 1. Gajar Ka Halwa -->
+        <article class="dessert-card">
+          <div class="dessert-img-wrapper">
+            <img src="https://iili.io/nBvMYMb.png" alt="Homemade Gajar Ka Halwa" loading="lazy" width="400" height="275">
+          </div>
+          <div class="dessert-info">
+            <h3 class="dessert-name">Gajar Ka Halwa</h3>
+            <p class="dessert-desc">Traditional sweet delicacy made with slow-simmered grated carrots, rich khoya, milk, and fragrant green cardamom.</p>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Gajar Ka Halwa')">Order Dessert</button>
+          </div>
+        </article>
+
+        <!-- 2. Kheer -->
+        <article class="dessert-card">
+          <div class="dessert-img-wrapper">
+            <img src="https://iili.io/nB8ozRp.png" alt="Homemade Kheer" loading="lazy" width="400" height="275">
+          </div>
+          <div class="dessert-info">
+            <h3 class="dessert-name">Kheer</h3>
+            <p class="dessert-desc">Creamy slow-cooked rice pudding enriched with condensed milk, cardamom, and garnished with sliced nuts.</p>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Kheer')">Order Dessert</button>
+          </div>
+        </article>
+
+        <!-- 3. Custard -->
+        <article class="dessert-card">
+          <div class="dessert-img-wrapper">
+            <img src="https://iili.io/nB6rlUb.png" alt="Homemade Chilled Custard" loading="lazy" width="400" height="275">
+          </div>
+          <div class="dessert-info">
+            <h3 class="dessert-name">Custard</h3>
+            <p class="dessert-desc">Smooth, chilled homemade custard prepared with wholesome milk and subtle sweetness for a comforting finish.</p>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Custard')">Order Dessert</button>
+          </div>
+        </article>
+
+        <!-- 4. Fruit Trifle -->
+        <article class="dessert-card">
+          <div class="dessert-img-wrapper">
+            <img src="https://iili.io/nB6NKoG.png" alt="Homemade Fruit Trifle" loading="lazy" width="400" height="275">
+          </div>
+          <div class="dessert-info">
+            <h3 class="dessert-name">Fruit Trifle</h3>
+            <p class="dessert-desc">Layered dessert featuring soft sponge cake, creamy custard, seasonal fruit cuts, and colorful jelly.</p>
+            <button class="btn btn-primary btn-sm" onclick="selectDishForOrder('Fruit Trifle')">Order Dessert</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <h2 class="section-title">Our Food Services</h2>
+      <p class="section-subtitle">Dedicated homemade food preparation tailored for households, professionals, and food lovers across Rawalpindi and Islamabad.</p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>Homemade Daily Meals</h3>
+          <p>Enjoy freshly prepared home-style Pakistani lunches and dinners with authentic taste and wholesome ingredients.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          </div>
+          <h3>Food Ordering</h3>
+          <p>Convenient dish selection and instant WhatsApp order placement with prompt communication from our kitchen.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <h3>Meal Reservation</h3>
+          <p>Book orders in advance for specific dates and meal times to ensure your preferred dishes are prepared on time.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3>Homemade Desserts</h3>
+          <p>Traditional sweet delicacies made with fresh dairy and aromatic nuts to complete your meal experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER / RESERVATION -->
+  <section class="order-section" id="order">
+    <div class="container">
+      <h2 class="section-title">Order Your Food</h2>
+      <p class="section-subtitle">Fill in your order details below to instantly generate a WhatsApp message and submit your request directly to Zee Homemade Food.</p>
+
+      <div class="order-container">
+        <form class="order-form" id="orderForm" onsubmit="handleOrderSubmit(event)">
+          <!-- Name -->
+          <div class="form-group">
+            <label for="orderName">Your Name *</label>
+            <input type="text" id="orderName" class="form-control" placeholder="e.g. Abdullah Khan" required>
+          </div>
+
+          <!-- Phone Number -->
+          <div class="form-group">
+            <label for="orderPhone">Phone Number *</label>
+            <input type="tel" id="orderPhone" class="form-control" placeholder="e.g. 0314 1234567" required>
+          </div>
+
+          <!-- Select Dish -->
+          <div class="form-group">
+            <label for="orderDish">Select Dish / Dessert *</label>
+            <select id="orderDish" class="form-control" required>
+              <option value="">-- Choose an item --</option>
+              <optgroup label="Main Meals">
+                <option value="Chicken Qorma">Chicken Qorma (with 2 Chapati, Salad &amp; Raita)</option>
+                <option value="Mixed Vegetables">Mixed Vegetables (with 2 Chapati, Salad &amp; Raita)</option>
+                <option value="Daal Chawal">Daal Chawal (with Salad &amp; Raita)</option>
+                <option value="Keema Matar">Keema Matar (with 2 Chapati, Salad &amp; Raita)</option>
+                <option value="Daal Mash">Daal Mash (with 2 Chapati, Salad &amp; Raita)</option>
+                <option value="Chicken Biryani">Chicken Biryani (with Salad &amp; Raita)</option>
+                <option value="Chicken Karahi">Chicken Karahi (with 2 Chapati, Salad &amp; Raita)</option>
+                <option value="Aloo Palak">Aloo Palak (with 2 Chapati, Salad &amp; Raita)</option>
+                <option value="Chicken Pulao">Chicken Pulao (with Salad &amp; Raita)</option>
+                <option value="Daal Chana">Daal Chana (with 2 Chapati, Salad &amp; Raita)</option>
+                <option value="Chicken Kofta">Chicken Kofta (with 2 Chapati, Salad &amp; Raita)</option>
+              </optgroup>
+              <optgroup label="Desserts">
+                <option value="Gajar Ka Halwa">Gajar Ka Halwa</option>
+                <option value="Kheer">Kheer</option>
+                <option value="Custard">Custard</option>
+                <option value="Fruit Trifle">Fruit Trifle</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <!-- Quantity -->
+          <div class="form-group">
+            <label for="orderQuantity">Quantity / Portions *</label>
+            <select id="orderQuantity" class="form-control" required>
+              <option value="1 Person Portion">1 Person Portion</option>
+              <option value="2 Persons Portion">2 Persons Portion</option>
+              <option value="3-4 Persons Portion">3-4 Persons Portion</option>
+              <option value="5+ Persons / Family">5+ Persons / Family</option>
+            </select>
+          </div>
+
+          <!-- Preferred Date -->
+          <div class="form-group">
+            <label for="orderDate">Preferred Date</label>
+            <input type="date" id="orderDate" class="form-control">
+          </div>
+
+          <!-- Preferred Time -->
+          <div class="form-group">
+            <label for="orderTime">Preferred Time / Meal</label>
+            <select id="orderTime" class="form-control">
+              <option value="Lunch (1:00 PM - 2:30 PM)">Lunch (1:00 PM - 2:30 PM)</option>
+              <option value="Dinner (7:30 PM - 9:30 PM)">Dinner (7:30 PM - 9:30 PM)</option>
+              <option value="Custom Time (Mention in notes)">Custom Time (Mention in notes)</option>
+            </select>
+          </div>
+
+          <!-- Delivery / Pickup -->
+          <div class="form-group full-width">
+            <label for="orderPreference">Service Preference</label>
+            <select id="orderPreference" class="form-control">
+              <option value="Home Delivery (Rawalpindi / Islamabad)">Home Delivery (Rawalpindi / Islamabad)</option>
+              <option value="Self Pickup (Dhoke Kala Khan, Rawalpindi)">Self Pickup (Dhoke Kala Khan, Rawalpindi)</option>
+            </select>
+          </div>
+
+          <!-- Additional Notes -->
+          <div class="form-group full-width">
+            <label for="orderNotes">Delivery Address / Additional Notes</label>
+            <textarea id="orderNotes" class="form-control" placeholder="Provide your address in Rawalpindi/Islamabad or any dietary preference..."></textarea>
+          </div>
+
+          <div class="form-notice">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <span>Submitting this form prepares your order request directly on WhatsApp. Zee Homemade Food will confirm preparation and delivery details with you.</span>
+          </div>
+
+          <button type="submit" class="btn btn-whatsapp order-submit-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.04 7.55C8.84 7.55 8.52 7.62 8.25 7.92C7.99 8.21 7.24 8.91 7.24 10.35C7.24 11.78 8.28 13.16 8.43 13.35C8.58 13.55 10.5 16.5 13.43 17.77C14.13 18.07 14.67 18.25 15.1 18.39C15.8 18.61 16.44 18.58 16.94 18.51C17.5 18.42 18.66 17.81 18.9 17.13C19.14 16.46 19.14 15.89 19.07 15.76C19 15.64 18.8 15.57 18.5 15.42C18.21 15.28 16.76 14.56 16.49 14.46C16.22 14.37 16.02 14.32 15.83 14.62C15.63 14.91 15.06 15.57 14.89 15.76C14.71 15.96 14.54 15.98 14.25 15.83C13.95 15.69 13.01 15.38 11.9 14.39C11.03 13.61 10.45 12.65 10.3 12.4C10.15 12.16 10.28 12.02 10.43 11.88C10.56 11.75 10.72 11.53 10.87 11.36C11.01 11.19 11.06 11.07 11.16 10.87C11.26 10.68 11.21 10.5 11.14 10.35C11.06 10.21 10.49 8.81 10.25 8.23C10.02 7.67 9.78 7.74 9.6 7.74C9.43 7.73 9.23 7.55 9.04 7.55Z"/></svg>
+            <span>Send Order on WhatsApp</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-subtitle">Helpful information regarding food ordering and meal reservations with Zee Homemade Food.</p>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <h3 class="faq-question">How do I place an order?</h3>
+          <p class="faq-answer">Select your preferred dish or dessert from our menu and fill out the order form, or click any WhatsApp button on the page. Your order request will be prepared and sent directly to us on WhatsApp for confirmation.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3 class="faq-question">Which areas do you serve?</h3>
+          <p class="faq-answer">We are based at Dhoke Kala Khan, Rawalpindi, and serve customers across Rawalpindi and Islamabad.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3 class="faq-question">Can I reserve meals in advance?</h3>
+          <p class="faq-answer">Yes, you can schedule meal requests for upcoming days by selecting your preferred date and time in the order form.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3 class="faq-question">How is my order confirmed?</h3>
+          <p class="faq-answer">Once you submit your order details on WhatsApp, we verify kitchen availability and confirm the timing and details directly with you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-subtitle">Reach out directly for orders, meal reservations, and homemade food inquiries in Rawalpindi and Islamabad.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info-list">
+          <!-- Phone -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="contact-detail">
+              <h3>Phone</h3>
+              <p><a href="tel:03144209121">0314 4209121</a></p>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact-detail">
+              <h3>Email</h3>
+              <p><a href="mailto:zeekuisine@gmail.com">zeekuisine@gmail.com</a></p>
+            </div>
+          </div>
+
+          <!-- Address -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact-detail">
+              <h3>Location</h3>
+              <p>Flat 1, Malik Qaisar Plaza, near Sultan Public School, Dhoke Kala Khan, Rawalpindi</p>
+            </div>
+          </div>
+
+          <!-- WhatsApp -->
+          <div class="contact-item">
+            <div class="contact-icon" style="background-color: rgba(37, 211, 102, 0.1); color: #25D366;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.04 7.55C8.84 7.55 8.52 7.62 8.25 7.92C7.99 8.21 7.24 8.91 7.24 10.35C7.24 11.78 8.28 13.16 8.43 13.35C8.58 13.55 10.5 16.5 13.43 17.77C14.13 18.07 14.67 18.25 15.1 18.39C15.8 18.61 16.44 18.58 16.94 18.51C17.5 18.42 18.66 17.81 18.9 17.13C19.14 16.46 19.14 15.89 19.07 15.76C19 15.64 18.8 15.57 18.5 15.42C18.21 15.28 16.76 14.56 16.49 14.46C16.22 14.37 16.02 14.32 15.83 14.62C15.63 14.91 15.06 15.57 14.89 15.76C14.71 15.96 14.54 15.98 14.25 15.83C13.95 15.69 13.01 15.38 11.9 14.39C11.03 13.61 10.45 12.65 10.3 12.4C10.15 12.16 10.28 12.02 10.43 11.88C10.56 11.75 10.72 11.53 10.87 11.36C11.01 11.19 11.06 11.07 11.16 10.87C11.26 10.68 11.21 10.5 11.14 10.35C11.06 10.21 10.49 8.81 10.25 8.23C10.02 7.67 9.78 7.74 9.6 7.74C9.43 7.73 9.23 7.55 9.04 7.55Z"/></svg>
+            </div>
+            <div class="contact-detail">
+              <h3>WhatsApp</h3>
+              <p><a href="https://wa.me/923144209121" target="_blank" rel="noopener noreferrer">0314 4209121</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Direct Actions Card -->
+        <div class="contact-card">
+          <h3>Quick Kitchen Connect</h3>
+          <p>Have questions about today's meal schedule or want to discuss a customized homemade order? Reach us directly on WhatsApp or view our location.</p>
+          <div class="contact-actions">
+            <a href="https://wa.me/923144209121" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.04 7.55C8.84 7.55 8.52 7.62 8.25 7.92C7.99 8.21 7.24 8.91 7.24 10.35C7.24 11.78 8.28 13.16 8.43 13.35C8.58 13.55 10.5 16.5 13.43 17.77C14.13 18.07 14.67 18.25 15.1 18.39C15.8 18.61 16.44 18.58 16.94 18.51C17.5 18.42 18.66 17.81 18.9 17.13C19.14 16.46 19.14 15.89 19.07 15.76C19 15.64 18.8 15.57 18.5 15.42C18.21 15.28 16.76 14.56 16.49 14.46C16.22 14.37 16.02 14.32 15.83 14.62C15.63 14.91 15.06 15.57 14.89 15.76C14.71 15.96 14.54 15.98 14.25 15.83C13.95 15.69 13.01 15.38 11.9 14.39C11.03 13.61 10.45 12.65 10.3 12.4C10.15 12.16 10.28 12.02 10.43 11.88C10.56 11.75 10.72 11.53 10.87 11.36C11.01 11.19 11.06 11.07 11.16 10.87C11.26 10.68 11.21 10.5 11.14 10.35C11.06 10.21 10.49 8.81 10.25 8.23C10.02 7.67 9.78 7.74 9.6 7.74C9.43 7.73 9.23 7.55 9.04 7.55Z"/></svg>
+              <span>Chat on WhatsApp</span>
+            </a>
+            <a href="https://maps.google.com/?q=Flat+1,+Malik+Qaisar+Plaza,+near+Sultan+Public+School,+Dhoke+Kala+Khan,+Rawalpindi" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Open in Google Maps</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <img src="https://i.postimg.cc/YqV4Z8cq/image.png" alt="Zee Homemade Food" width="210" height="58" onerror="this.onerror=null;this.src='https://i.postimg.cc/CSMjZ6mD/image.png';">
+          <p class="footer-desc">Homemade food service offering authentic Pakistani home-style meals and desserts in Rawalpindi and Islamabad.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/EtensWinkel/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Zee Homemade Food Facebook Profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h3 class="footer-heading">Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#menu" class="footer-link">Food Menu</a></li>
+            <li><a href="#monthly" class="footer-link">Monthly Menu</a></li>
+            <li><a href="#desserts" class="footer-link">Desserts</a></li>
+            <li><a href="#services" class="footer-link">Services</a></li>
+            <li><a href="#order" class="footer-link">Order Now</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h3 class="footer-heading">Get in Touch</h3>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:03144209121">0314 4209121</a>
+            </li>
+            <li class="footer-contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:zeekuisine@gmail.com">zeekuisine@gmail.com</a>
+            </li>
+            <li class="footer-contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Flat 1, Malik Qaisar Plaza, near Sultan Public School, Dhoke Kala Khan, Rawalpindi</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Zee Homemade Food. All rights reserved. Rawalpindi &amp; Islamabad, Pakistan.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP CTA -->
+  <a href="https://wa.me/923144209121" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Contact Zee Homemade Food on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.04 7.55C8.84 7.55 8.52 7.62 8.25 7.92C7.99 8.21 7.24 8.91 7.24 10.35C7.24 11.78 8.28 13.16 8.43 13.35C8.58 13.55 10.5 16.5 13.43 17.77C14.13 18.07 14.67 18.25 15.1 18.39C15.8 18.61 16.44 18.58 16.94 18.51C17.5 18.42 18.66 17.81 18.9 17.13C19.14 16.46 19.14 15.89 19.07 15.76C19 15.64 18.8 15.57 18.5 15.42C18.21 15.28 16.76 14.56 16.49 14.46C16.22 14.37 16.02 14.32 15.83 14.62C15.63 14.91 15.06 15.57 14.89 15.76C14.71 15.96 14.54 15.98 14.25 15.83C13.95 15.69 13.01 15.38 11.9 14.39C11.03 13.61 10.45 12.65 10.3 12.4C10.15 12.16 10.28 12.02 10.43 11.88C10.56 11.75 10.72 11.53 10.87 11.36C11.01 11.19 11.06 11.07 11.16 10.87C11.26 10.68 11.21 10.5 11.14 10.35C11.06 10.21 10.49 8.81 10.25 8.23C10.02 7.67 9.78 7.74 9.6 7.74C9.43 7.73 9.23 7.55 9.04 7.55Z"/></svg>
+  </a>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    // 1. Mobile Menu Toggle
+    const mobileToggle = document.getElementById('mobileToggle');
+    const navMenu = document.getElementById('navMenu');
+
+    if (mobileToggle && navMenu) {
+      mobileToggle.addEventListener('click', function() {
+        const isOpen = navMenu.classList.toggle('open');
+        mobileToggle.setAttribute('aria-expanded', isOpen);
+      });
+
+      // Close menu on nav-link click
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navMenu.classList.remove('open');
+          mobileToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+
+    // 2. Hero Background Crossfade Animation
+    let currentHeroIndex = 0;
+    const heroSlides = [
+      document.getElementById('heroSlide1'),
+      document.getElementById('heroSlide2')
+    ];
+
+    if (heroSlides[0] && heroSlides[1]) {
+      setInterval(() => {
+        heroSlides[currentHeroIndex].classList.remove('active');
+        currentHeroIndex = (currentHeroIndex + 1) % heroSlides.length;
+        heroSlides[currentHeroIndex].classList.add('active');
+      }, 5000);
+    }
+
+    // 3. Monthly Menu Week Switching
+    function switchWeek(weekId, button) {
+      document.querySelectorAll('.week-panel').forEach(panel => {
+        panel.classList.remove('active');
+      });
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('active');
+        btn.setAttribute('aria-selected', 'false');
+      });
+
+      const activePanel = document.getElementById(weekId);
+      if (activePanel) {
+        activePanel.classList.add('active');
+      }
+      if (button) {
+        button.classList.add('active');
+        button.setAttribute('aria-selected', 'true');
+      }
+    }
+
+    // 4. Pre-fill dish selection from menu cards
+    function selectDishForOrder(dishName) {
+      const dishSelect = document.getElementById('orderDish');
+      if (dishSelect) {
+        dishSelect.value = dishName;
+      }
+      const orderSection = document.getElementById('order');
+      if (orderSection) {
+        orderSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    // 5. Order Form Handler -> Generate WhatsApp Message
+    function handleOrderSubmit(event) {
+      event.preventDefault();
+
+      const name = document.getElementById('orderName').value.trim();
+      const phone = document.getElementById('orderPhone').value.trim();
+      const dish = document.getElementById('orderDish').value;
+      const quantity = document.getElementById('orderQuantity').value;
+      const date = document.getElementById('orderDate').value || 'Flexible / Today';
+      const time = document.getElementById('orderTime').value;
+      const preference = document.getElementById('orderPreference').value;
+      const notes = document.getElementById('orderNotes').value.trim() || 'None';
+
+      if (!name || !phone || !dish) {
+        alert('Please provide your name, phone number, and select a dish.');
+        return;
+      }
+
+      const message = 
+`Hello Zee Homemade Food,
+
+I would like to place an order.
+
+Name: ${name}
+Phone: ${phone}
+Dish: ${dish}
+Quantity: ${quantity}
+Preferred Date: ${date}
+Preferred Time: ${time}
+Preference: ${preference}
+Additional Notes: ${notes}
+
+Thank you.`;
+
+      const encodedMessage = encodeURIComponent(message);
+      const whatsappUrl = `https://wa.me/923144209121?text=${encodedMessage}`;
+
+      window.open(whatsappUrl, '_blank');
+    }
+
+    // Set default date picker min to today
+    const dateInput = document.getElementById('orderDate');
+    if (dateInput) {
+      const today = new Date().toISOString().split('T')[0];
+      dateInput.min = today;
+    }
+  </script>
+</body>
+</html>
